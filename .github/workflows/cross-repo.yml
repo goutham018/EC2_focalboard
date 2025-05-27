@@ -63,7 +63,7 @@ jobs:
                 "repo": "${{ github.repository }}",
                 "run_id": "${{ github.run_id }}",
                 "workflow": "${{ github.workflow }}",
-                "branch": "${{ github.ref_name }}"
+                "branch": "${{ github.ref_name }}",
                 "actor": "${{ github.actor }}"
               }
             }'
